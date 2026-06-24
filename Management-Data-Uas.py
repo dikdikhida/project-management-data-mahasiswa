@@ -306,7 +306,7 @@ def main():
                         st.session_state.students.append(new_student)
                         save_to_file(st.session_state.students, filename)
                         st.success(f"Data mahasiswa {name} berhasil diamankan!")
-                        st.toast(f"Sukses mendaftarkan {name}!", icon="🎉")
+                        st.toast(f"Sukses mendaftarkan {name}!")
                         st.rerun()
 
     with tab3:
@@ -401,7 +401,7 @@ def main():
             "Urutkan NIM Terkecil ke Terbesar (Insertion Sort - Ascending)"
         ], horizontal=True)
         
-        if st.button("⚡ Eksekusi Penyusunan Ulang", type="primary", use_container_width=True):
+        if st.button("Eksekusi Penyusunan Ulang", type="primary", use_container_width=True):
             with st.spinner("Memetakan ulang struktur memori..."):
                 if "GPA" in rule:
                     bubble_sort_by_gpa(st.session_state.students)
