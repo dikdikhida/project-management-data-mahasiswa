@@ -1,5 +1,0 @@
-Cara Penggunaan untuk Anda & Dosen:
-Pastikan file requirements.txt ini diletakkan di dalam folder yang sama dengan file Management Data Uas.py 
-di perangkat baru cukup membuka terminal/CMD di folder tersebut dan menjalankan perintah berikut untuk menginstal semua library sekaligus:
-
-pip install -r requirements.txt
